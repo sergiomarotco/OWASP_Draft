@@ -53,5 +53,14 @@ MIDDLEWARE - a set of segments to accommodate the following network elements:
 - analytics services
 - message queues
 - stream processing platform
-### BACKEND
+
 ![MIDDLEWARE](https://github.com/sergiomarotco/OWASP_Draft/blob/main/Assets/Network_Segmentation_Cheat_Sheet_MIDDLEWARE.jpg)
+
+### BACKEND
+BACKEND - a set of network segments to accommodate the following network elements:
+- SQL database
+- LDAP directory (Domain controller)
+- storage of cryptographic keys
+- file-server
+
+![BACKEND](https://github.com/sergiomarotco/OWASP_Draft/blob/main/Assets/Network_Segmentation_Cheat_Sheet_BACKEND.jpg)

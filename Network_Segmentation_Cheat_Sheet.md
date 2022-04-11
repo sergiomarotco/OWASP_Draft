@@ -36,4 +36,10 @@ By default, developed information systems should consist of at least three compo
 1. [FRONTEND](https://github.com/sergiomarotco/OWASP_Draft/blob/main/Network_Segmentation_Cheat_Sheet.md#frontend)
 2. MIDDLEWARE
 3. BACKEND
+
 ### FRONTEND
+FRONTEND - A frontend is a set of segments with the following network elements:
+- balancer
+- application layer firewall
+- web server
+- web cache

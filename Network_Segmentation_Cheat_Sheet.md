@@ -64,3 +64,8 @@ BACKEND - a set of network segments to accommodate the following network element
 - file-server
 
 ![BACKEND](https://github.com/sergiomarotco/OWASP_Draft/blob/main/Assets/Network_Segmentation_Cheat_Sheet_BACKEND.jpg)
+
+### Example of Three-layer network architecture
+The following example shows an organization's local network. The organization is called "Kontoso".
+
+![BACKEND](https://github.com/sergiomarotco/OWASP_Draft/blob/main/Assets/Network_Segmentation_Cheat_Sheet_TIER_Example.jpg)

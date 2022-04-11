@@ -70,12 +70,12 @@ BACKEND - a set of network segments to accommodate the following network element
 The following example shows an organization's local network. The organization is called "Сontoso".
 
 The edge firewall contains 2 VLANs of **FRONTED** secuirity zone:
-- DMZ Inbound - a segment for hosting services and applications accessible from the Internet, they must be protected by WAF
-- DMZ Outgoing - a segment for hosting services that are inaccessible from the Internet, but have access to external networks (the firewall does not contain any rules for allowing traffic from external networks)
+- _DMZ Inbound_ - a segment for hosting services and applications accessible from the Internet, they must be protected by WAF
+- _DMZ Outgoing_ - a segment for hosting services that are inaccessible from the Internet, but have access to external networks (the firewall does not contain any rules for allowing traffic from external networks)
 
 The internal firewall contains 4 VLANs:
-- **MIDDLEWARE** security zone contains only one VLAN with name APPLICATIONS - a segment designed to host information system applications that interact with each other (interservice communication) and interact with other services
+- **MIDDLEWARE** security zone contains only one VLAN with name _APPLICATIONS_ - a segment designed to host information system applications that interact with each other (interservice communication) and interact with other services
 - **BACKEND** security zone contains:
-   - segment DATABASES - a segment designed to delimit various databases of an automated system
-   - AD SERVICES - segment designed to host various Active Directory services, in the example only one server with a domain controller Contoso.com is shown
-   - LOGS - segment, designed to host servers with logs, servers centrally store application logs of an automated system.
+   - _DATABASES_ - a segment designed to delimit various databases of an automated system
+   - _AD SERVICES_ - segment designed to host various Active Directory services, in the example only one server with a domain controller Contoso.com is shown
+   - _LOGS_ - segment, designed to host servers with logs, servers centrally store application logs of an automated system.

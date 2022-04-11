@@ -14,6 +14,6 @@ Segmentation will avoid the following situations:
 
 Elements used in network diagrams:
 
-![Schematic symbols]()
+![Schematic symbols](https://github.com/sergiomarotco/OWASP_Draft/blob/main/Assets/Network_Segmentation_Cheat_Sheet_Schematic_symbols.jpg)
 
 Crossing the border of the rectangle means crossing the firewall:

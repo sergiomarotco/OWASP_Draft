@@ -1,3 +1,7 @@
+# Network segmentation Cheat Sheet
+
+## Introduction
+
 Network segmentation is the core of multi-layer defense in depth for modern services. Segmentation allows you to slow down an attacker if he cannot implement attacks such as:
  - SQL-injections, see [SQL Injection Prevention Cheat Sheet](https://github.com/OWASP/CheatSheetSeries/blob/master/cheatsheets/SQL_Injection_Prevention_Cheat_Sheet.md)
  - compromise of workstations of employees with elevated privileges

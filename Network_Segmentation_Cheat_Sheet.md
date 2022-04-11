@@ -54,3 +54,4 @@ MIDDLEWARE - a set of segments to accommodate the following network elements:
 - message queues
 - stream processing platform
 ### BACKEND
+![MIDDLEWARE](https://github.com/sergiomarotco/OWASP_Draft/blob/main/Assets/Network_Segmentation_Cheat_Sheet_MIDDLEWARE.jpg)

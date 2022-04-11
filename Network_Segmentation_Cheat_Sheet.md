@@ -21,3 +21,19 @@ Elements used in network diagrams:
 ![Schematic symbols](https://github.com/sergiomarotco/OWASP_Draft/blob/main/Assets/Network_Segmentation_Cheat_Sheet_Schematic_symbols.jpg)
 
 Crossing the border of the rectangle means crossing the firewall:
+![Traffic passes through two firewalls](https://github.com/sergiomarotco/OWASP_Draft/blob/main/Assets/Network_Segmentation_Cheat_Sheet_firewall_1.jpg)
+
+In the image above, traffic passes through two firewalls with the names FW1 and FW2
+
+![Traffic passes through one firewall](https://github.com/sergiomarotco/OWASP_Draft/blob/main/Assets/Network_Segmentation_Cheat_Sheet_firewall_2.jpg)
+
+In the image above, traffic passes through one firewall, behind which there are two VLANs
+
+Further, the schemes do not contain firewall icons so as not to overload the schemes
+
+## Three-layer network architecture
+By default, developed information systems should consist of at least three components:
+1. FRONTEND
+2. MIDDLEWARE
+3. BACKEND
+### FRONTEND

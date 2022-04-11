@@ -32,7 +32,7 @@ In the image above, traffic passes through one firewall, behind which there are 
 Further, the schemes do not contain firewall icons so as not to overload the schemes
 
 ## Three-layer network architecture
-By default, developed information systems should consist of at least three components:
+By default, developed information systems should consist of at least three components (**security zones**):
 1. [FRONTEND](https://github.com/sergiomarotco/OWASP_Draft/blob/main/Network_Segmentation_Cheat_Sheet.md#FRONTEND)
 2. [MIDDLEWARE](https://github.com/sergiomarotco/OWASP_Draft/blob/main/Network_Segmentation_Cheat_Sheet.md#MIDDLEWARE)
 3. [BACKEND](https://github.com/sergiomarotco/OWASP_Draft/blob/main/Network_Segmentation_Cheat_Sheet.md#BACKEND)

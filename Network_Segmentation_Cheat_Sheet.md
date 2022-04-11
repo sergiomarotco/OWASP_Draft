@@ -47,5 +47,10 @@ FRONTEND - A frontend is a set of segments with the following network elements:
 ![FRONTEND](https://github.com/sergiomarotco/OWASP_Draft/blob/main/Assets/Network_Segmentation_Cheat_Sheet_FRONTEND.jpg)
 
 ### MIDDLEWARE
-
+MIDDLEWARE - a set of segments to accommodate the following network elements:
+- web applications that implement the logic of the information system (processing requests from clients, other services of the company and external services; execution of requests)
+- authorization services
+- analytics services
+- message queues
+- stream processing platform
 ### BACKEND

@@ -68,12 +68,14 @@ BACKEND - a set of network segments to accommodate the following network element
 ### Example of Three-layer network architecture
 ![BACKEND](https://github.com/sergiomarotco/OWASP_Draft/blob/main/Assets/Network_Segmentation_Cheat_Sheet_TIER_Example.jpg)
 The following example shows an organization's local network. The organization is called "Сontoso".
-The edge firewall contains 2 VLANs:
+
+The edge firewall contains 2 VLANs of **FRONTED** secuirity zone:
 - DMZ Inbound - a segment for hosting services and applications accessible from the Internet, they must be protected by WAF
 - DMZ Outgoing - a segment for hosting services that are inaccessible from the Internet, but have access to external networks (the firewall does not contain any rules for allowing traffic from external networks)
+
 The internal firewall contains 4 VLANs:
-- APPLICATIONS (MIDDLEWARE security zone) - a segment designed to host information system applications that interact with each other (interservice interaction) and interact with other services
-BACKENED security zone contains:
--- segment DATABASES - a segment designed to delimit various databases of an automated system
--- AD SERVICES - segment designed to host various Active Directory services, in the example only one server with a domain controller Contoso.com is shown
--- LOGS - segment, designed to host servers with logs, servers centrally store application logs of an automated system.
+- **MIDDLEWARE** security zone contains only one VLAN with name APPLICATIONS - a segment designed to host information system applications that interact with each other (interservice communication) and interact with other services
+- **BACKEND** security zone contains:
+   - segment DATABASES - a segment designed to delimit various databases of an automated system
+   - AD SERVICES - segment designed to host various Active Directory services, in the example only one server with a domain controller Contoso.com is shown
+   - LOGS - segment, designed to host servers with logs, servers centrally store application logs of an automated system.

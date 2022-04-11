@@ -33,7 +33,7 @@ Further, the schemes do not contain firewall icons so as not to overload the sch
 
 ## Three-layer network architecture
 By default, developed information systems should consist of at least three components:
-1. FRONTEND
+1. [FRONTEND](https://github.com/sergiomarotco/OWASP_Draft/blob/main/Network_Segmentation_Cheat_Sheet.md#frontend)
 2. MIDDLEWARE
 3. BACKEND
 ### FRONTEND

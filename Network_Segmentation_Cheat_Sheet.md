@@ -44,4 +44,4 @@ FRONTEND - A frontend is a set of segments with the following network elements:
 - web server
 - web cache
 
-![FRONTEND](https://github.com/sergiomarotco/OWASP_Draft/blob/main/Assets/Network_Segmentation_Cheat_Sheet_BACKEND.jpg)
+![FRONTEND](https://github.com/sergiomarotco/OWASP_Draft/blob/main/Assets/Network_Segmentation_Cheat_Sheet_FRONTEND.jpg)

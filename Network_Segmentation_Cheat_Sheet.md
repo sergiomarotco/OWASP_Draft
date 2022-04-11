@@ -69,7 +69,7 @@ BACKEND - a set of network segments to accommodate the following network element
 ![BACKEND](https://github.com/sergiomarotco/OWASP_Draft/blob/main/Assets/Network_Segmentation_Cheat_Sheet_TIER_Example.jpg)
 The following example shows an organization's local network. The organization is called "Сontoso".
 The edge firewall contains 2 VLANs:
-- DMZ Inbound - a segment for hosting services and applications accessible from the Internet, they must be protected by WAF:
+- DMZ Inbound - a segment for hosting services and applications accessible from the Internet, they must be protected by WAF
 - DMZ Outgoing - a segment for hosting services that are inaccessible from the Internet, but have access to external networks (the firewall does not contain any rules for allowing traffic from external networks)
 The internal firewall contains 4 VLANs:
 - APPLICATIONS (MIDDLEWARE security zone) - a segment designed to host information system applications that interact with each other (interservice interaction) and interact with other services

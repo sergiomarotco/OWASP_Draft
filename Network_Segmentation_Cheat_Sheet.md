@@ -2,11 +2,11 @@
 
 ## Introduction
 
-Network segmentation is the core of multi-layer defense in depth for modern services. Segmentation allows you to slow down an attacker if he cannot implement attacks such as:
+Network segmentation is the core of multi-layer defense in depth for modern services. Segmentation slow down an attacker if he cannot implement attacks such as:
  - SQL-injections, see [SQL Injection Prevention Cheat Sheet](https://github.com/OWASP/CheatSheetSeries/blob/master/cheatsheets/SQL_Injection_Prevention_Cheat_Sheet.md)
  - compromise of workstations of employees with elevated privileges
  - compromise of another server in the perimeter of the organization
- - compromise of the target service through the compromise of the LDAP directory, DNS server, and other corporate site published on the Internet
+ - compromise of the target service through the compromise of the LDAP directory, DNS server, and other corporate services and sites published on the Internet
 
 The main goal of this cheat sheet is to show the basics of network segmentation to effectively counter attacks by building a secure and maximally isolated service network architecture.
 

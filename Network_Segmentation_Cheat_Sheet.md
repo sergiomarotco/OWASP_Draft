@@ -84,6 +84,7 @@ The internal firewall contains 4 VLANs:
 Usually some information systems of the company interact with each other. It is important to define a firewall policy for such interactions.
 The base allowed interactions are indicated by the green arrows in the image below:
 ![Interservice interaction](https://github.com/sergiomarotco/OWASP_Draft/blob/main/Assets/Network_Segmentation_Cheat_Sheet_interservice.jpg)
+The image above also shows the allowed access from the FRONTEND and MIDDLEWARE segments to external networks (the Internet, for example).
 
 From this image follows:
 1. Access between FRONTEND and MIDDLEWARE segments of different information systems is prohibited;
@@ -92,3 +93,18 @@ From this image follows:
 Forbidden accesses are indicated by red arrows in the image below:
 ![Prohibited Interservice Communication](https://github.com/sergiomarotco/OWASP_Draft/blob/main/Assets/Network_Segmentation_Cheat_Sheet_interservice_deny.jpg)
 
+## Network security policy
+The organization must define a "paper" policy that describes firewall rules and basic allowed network access.
+This policy is at least useful:
+- network administrators;
+- security representatives;
+- IT auditors;
+- architects of information systems and software;
+- developers;
+- IT administrators.
+
+It is convenient when the policy is described by similar images. The information is presented as concisely and simply as possible.
+### Examples of individual policy provisions
+#### Permissions for monitoring systems
+Suppose a company uses Zabbix as an IT monitoring system. In this case, the policy might look like this:
+![Zabbix-Example](https://github.com/sergiomarotco/OWASP_Draft/blob/main/Assets/Network_Segmentation_Cheat_Sheet_Monitoring.drawio)

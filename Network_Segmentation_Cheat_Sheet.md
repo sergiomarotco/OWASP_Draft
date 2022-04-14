@@ -83,4 +83,12 @@ The internal firewall contains 4 VLANs:
 ## Interservice interaction
 Usually some information systems of the company interact with each other. It is important to define a firewall policy for such interactions.
 The base allowed interactions are indicated by the green arrows in the image below:
+![Interservice interaction](https://github.com/sergiomarotco/OWASP_Draft/blob/main/Assets/Network_Segmentation_Cheat_Sheet_interservice.jpg)
+
+From this image follows:
+1. Access between FRONTEND and MIDDLEWARE segments of different information systems is prohibited;
+2. Access from the MIDDLEWARE segment to the BACKEND segment of another service is prohibited (access to a foreign database bypassing the application server is prohibited).
+
+Forbidden accesses are indicated by red arrows in the image below:
+![Prohibited Interservice Communication](https://github.com/sergiomarotco/OWASP_Draft/blob/main/Assets/Network_Segmentation_Cheat_Sheet_interservice_deny.jpg)
 

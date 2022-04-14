@@ -79,3 +79,8 @@ The internal firewall contains 4 VLANs:
    - _DATABASES_ - a segment designed to delimit various databases of an automated system
    - _AD SERVICES_ - segment designed to host various Active Directory services, in the example only one server with a domain controller Contoso.com is shown
    - _LOGS_ - segment, designed to host servers with logs, servers centrally store application logs of an automated system.
+
+## Interservice interaction
+Usually some information systems of the company interact with each other. It is important to define a firewall policy for such interactions.
+The base allowed interactions are indicated by the green arrows in the image below:
+

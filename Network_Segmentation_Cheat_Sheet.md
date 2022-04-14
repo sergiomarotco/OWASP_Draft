@@ -18,6 +18,7 @@ Segmentation will avoid the following situations:
 - Three-layer network architecture
 - Interservice interaction
 - Network security policy
+- Useful links
 ## Schematic symbols
 
 Elements used in network diagrams:
@@ -121,3 +122,5 @@ In this example, we are also talking about application logs that may contain sec
 #### Permissions for monitoring systems
 Suppose a company uses Zabbix as an IT monitoring system. In this case, the policy might look like this:
 ![Zabbix-Example](https://github.com/sergiomarotco/OWASP_Draft/blob/main/Assets/Network_Segmentation_Cheat_Sheet_Monitoring.jpg)
+## Useful links
+- Network-segmentation-cheat-sheet by [sergiomarotco](https://github.com/sergiomarotco): [link](https://github.com/sergiomarotco/Network-segmentation-cheat-sheet)
